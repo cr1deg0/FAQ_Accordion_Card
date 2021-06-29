@@ -1,0 +1,172 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%)
+}
+html, body{
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* to cover screen past viewport in mobile view, including scrolling down*/
+    background-attachment: fixed;
+ 
+}
+.content{
+    /*center card on screen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    overflow: hidden;
+    width: 920px;
+    height: 508px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
+}
+.icons{
+    width: 50%;
+    position: relative;
+}
+.bckgrd-dktp{
+    position: absolute;
+    left: -575px;
+    top: -295px;
+}
+/*hidden image for desktop layout*/
+.bckgrd-mobile{
+    display: none;
+}
+.img-woman-dktp{
+    position: absolute;
+    top: 65px;
+    left: -85px;
+}
+/*hidden image for desktop layout*/
+.img-woman-mobile{
+    display: none;
+}
+.img-box{
+    position:absolute;
+    left: -93px;
+    top: 200px;
+    z-index: 2;   
+}
+.text{
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 140px;
+}
+h1{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+.faqs{ 
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+.menu{
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    color: hsl(237, 12%, 33%);
+    padding-left: 0px;
+}
+.menu::after{    
+    content: url(./images/icon-arrow-down.svg);
+    float: right;
+}
+.menu:hover{
+    color: hsl(14, 88%, 65%);
+}
+.visible{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+.visible::after{    
+    float: right;
+    transform: rotate(180deg);
+}
+.panel{
+    display: none;
+  }
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@media screen  
+  and (max-width: 420px){
+    .card{
+        flex-direction: column;
+        overflow: scroll;
+        width: 325px;
+        height: 533px;
+        margin-top: 250px;
+        overflow: visible;
+    }
+    .icons{
+        width: auto;
+        height: 20%;
+        position: relative;
+    }
+    /*hidden image for mobile layout*/
+    .bckgrd-dktp{
+        display: none;
+    }
+    .bckgrd-mobile{
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: 48px;
+    }
+    /*hidden image for mobile layout*/
+    .img-woman-dktp{
+        display: none;
+    }
+    .img-woman-mobile{
+        display: block;
+        position: absolute;
+        top: -110px;
+        left: 20px;
+    }
+    .img-box{
+        display:none;   
+    }
+    .faqs{
+        width: 95%;
+    }
+    .text{
+        width: 90%;
+        height: 80%;
+        padding-top: 0;
+        padding-right: 15px;
+        padding-left: 25px;
+    }
+    h1{
+        text-align: center;
+    }
+    .menu{
+        font-size: 13px;
+    }
+    p{
+        padding-right: 25px;
+    
+    }
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: white; }
+.attribution p {color: hsl(238, 29%, 16%);}
