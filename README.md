@@ -48,8 +48,8 @@ whte space when scrolling down. I've found a solution for this in the stackoverf
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/57352087/how-to-fix-css-gradient-background-leaving-whitespace-at-the-bottom-on-mobile-br) 
-- [Example resource 2](https://www.w3schools.com/) - For explanation on how to implement the CSS accordion
+- [Example resource 1](https://stackoverflow.com/questions/57352087/how-to-fix-css-gradient-background-leaving-whitespace-at-the-bottom-on-mobile-br) stackflow link
+- [Example resource 2](https://www.w3schools.com/) - w3schools For explanation on how to implement the CSS accordion
 
 ## Author
 
