@@ -18,6 +18,7 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 .card{
     background-color: white;
     border-radius: 20px;
