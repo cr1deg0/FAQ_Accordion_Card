@@ -82,6 +82,7 @@ h1{
     text-align: left;
     color: hsl(237, 12%, 33%);
     padding-left: 0px;
+    cursor: pointer;
 }
 .menu::after{    
     content: url(./images/icon-arrow-down.svg);
