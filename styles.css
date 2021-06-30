@@ -109,8 +109,8 @@ p{
     line-height: 20px;
 }
 
-@media screen  
-  and (max-width: 420px){
+@media only screen  
+  and (max-width: 375px){
     .card{
         flex-direction: column;
         overflow: scroll;
