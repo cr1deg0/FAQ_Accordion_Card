@@ -156,6 +156,7 @@ p{
         padding-top: 0;
         padding-right: 15px;
         padding-left: 25px;
+        overflow: hidden;
     }
     h1{
         text-align: center;
